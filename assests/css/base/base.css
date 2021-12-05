@@ -2,6 +2,9 @@
 @import url(_reset.css);
 
 body{
+    font-family: var(--familia-corpo);
+    font-size: var(--familia-corpo);
+
     background: url(../../img/fundo-textura.png), url(../../img/fundo-linhas.svg);
     background-position: center;
 }

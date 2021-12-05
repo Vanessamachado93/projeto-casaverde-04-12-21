@@ -1,10 +1,14 @@
 :root {
     --amarelo: #ffcb47;
+    --amarelo-transparente: #ffcb473d
     --branco: #ffffff;
     --cinza: #909090;
     --preto: #202020;
+    --preto-transparente: #0000000f;
 
     --familia-corpo: 'montserrat', sans-serif;
 
     --tamanho-corpo: 1rem;
+
+
 }
