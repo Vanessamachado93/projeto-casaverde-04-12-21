@@ -7,14 +7,14 @@
     <title>Home | Casa Verde</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Montserrat:ital,wght@0,400;1,700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&
+    family=Montserrat:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assests/css/base/base.css">
     <link rel="stylesheet" href="assests/css/componentes/botoes.css">
     <link rel="stylesheet" href="assests/css/componentes/input.css">
     <link rel="stylesheet" href="assests/css/componentes/cartao.css">
     <link rel="stylesheet" href="assests/css/componentes/item.css">
+    <link rel="stylesheet" href="assests/css/componentes/produto.css">
 
     </meta>
 </head>
@@ -22,8 +22,8 @@
 <body>
     <main class="container">
         <button class="botao">Assinar Newsletter</button>
-        <input type="text" class="input input--icone input--email" placeholder="Insira seu e-mail"
-            area-label="Insira seu e-mail">
+        <input type="text" class="input input--icone input--email" 
+        placeholder="Insira seu e-mail" area-label="Insira seu e-mail">
         <button class="botao botao--alternativo">Adicionar o carrinho</button>
 
         <article class="cartao">
@@ -44,6 +44,15 @@
                     <p>Aguarde em casa</p>
                 </li>
             </ul>
+        </article>
+
+        <article class="produto">
+            <img src="assests/img/planta-01.png" alt="Foto do produto" class="produto__imagem">
+            <div class="produto__conteudo">
+                <h3 class="produto__titulo titulo--destaque">Ajuga reptans</h3>
+                <p class="produto__preco">R$20,00</p>
+                <a href="#" class="produto__comprar">Comprar<span class="produto__comprar--icone"></span></a>
+            </div>
         </article>
 
     </main>
