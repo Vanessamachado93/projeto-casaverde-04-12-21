@@ -50,3 +50,15 @@
     align-items: center;
 
 }
+
+.produto__comprar--icone {
+    display: inline-block;
+
+    width: 0.875rem;
+    height: 0.875rem;
+
+    margin-left: 1.75rem;
+
+    background-image: url(../../img/icones/seta-direita.svg);
+    background-size: contain;
+}
