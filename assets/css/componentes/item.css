@@ -7,19 +7,21 @@
 .item {
     display: flex;
     align-items: center;
-    width: 15rem;
-    margin-bottom: 1rem;
 
+    width: 15rem;
+
+    margin-bottom: 1rem;
 }
 
 .item__icone {
     display: block;
+
     margin-right: 1rem;
 
     width: 3.25rem;
     height: 3.25rem;
 
-    border-radius: 50px;
+    border-radius: 50%;
 
     background-color: var(--amarelo);
 
@@ -29,7 +31,7 @@
 }
 
 .item__icone--cursor {
-    background-image: url(../../img/icones/seta-mouse.svg);
+    background-image: url(../../img/icones/mouse.svg);
 }
 
 .item__icone--carrinho {
